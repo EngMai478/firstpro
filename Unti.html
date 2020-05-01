@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Speedy2 Show </title>
+
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+   <link rel='stylesheet'  href='css/bootstrap.css'/>
+   <link rel='stylesheet' type='text/css' href='Un1.css'/>
+   
+  </head>
+  <body >
+  
+        <nav class="navbar  navbar-fixed-top "  role="navigation"><!--Start navbar-->
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                
+                <div class="dropdown">
+                     
+                  <a class="dropbtn">Product <span class="caret"></span></a>
+                  <div class="dropdown-content">
+                    <a href="scooter.html">Scooters</a>
+                    <a href="bikes.html">Bikes</a>
+                    
+                  </div>
+                </div>
+             
+                </li>
+                <li class=""><a   href="#">About<span class="sr-only">(current)</span></a></li>
+                <li><a id="sco" href="#">Contuct Us</a></li>
+              </ul>
+              <div class="navbar-header navbar-right">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" id="hom" href="Unti.html">Home</a>
+            </div>
+               <div class="navbar-header navbar-left">
+                <h4 >speedy</h4>
+            </div>
+            </div>
+          </div>
+        </nav>
+           
+  
+  <div id="spn" class="container">
+      <div class="parag">
+      <h1  >Welcome To Speedy Teem</h1>
+    <h2 >We hope to like what's you thinking</h2>
+    <h5 >Visit us and select what you want</h5>
+    </div>
+    <a href="#" class="button"id="button">login</a>
+    <a href="#" class="button" id="button1" >register</a>
+  <!-- <a href="#" class="button">register</a></div>-->
+  <div class="popup">
+    <div class="popup_content">
+      <img src="close.png" alt="close" class="close">
+        <img src="user.png" alt="USER" class="user">
+      <input type="text" placeholder="UserName">
+      <input type="password" placeholder="Password" >
+      <a href="#" class="button">login</a>
+    </div>
+  </div>
+  <div class="popup1">
+    <div class="popup_content1">
+      <img src="close.png" alt="close" class="close1">
+        <img src="user.png" alt="USER" class="user">
+      <input type="email" placeholder="E_mail">
+      <input type="text" placeholder="UserName" >
+      <input type="password" placeholder="Password" >
+      <input type="password" placeholder="Confirm Password">
+      <input type="text" placeholder="Phone" >
+      <a href="#" class="button">sing up</a>
+    </div>
+  </div>
+ <script>
+     document.getElementById("button").addEventListener("click", function(){
+         document.querySelector(".popup").style.display = "flex";
+     })
+      
+       document.querySelector(".close").addEventListener("click", function(){
+        document.querySelector(".popup").style.display = "none";
+     })
+ </script>
+ <script>
+  document.getElementById("button1").addEventListener("click", function(){
+      document.querySelector(".popup1").style.display = "flex";
+  })
+   
+     document.querySelector(".close1").addEventListener("click", function(){
+     document.querySelector(".popup1").style.display = "none";
+  })
+</script>
+</body>
+</html>
