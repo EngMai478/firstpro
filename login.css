@@ -1,0 +1,33 @@
+.log{
+    text-align: center;
+    margin-top: 80px;
+}
+h1{
+    font-size: 3.5em;
+    font-family: sans-serif;
+    font-style: italic;
+    padding: 15px 16px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    padding: 15px 16px;
+}
+input{
+    padding: 15px 16px;
+   width: 250px;
+   height: 35px;
+}
+a{
+   font-size: 2.2em;
+    background: #ffc107;
+    padding: 10px 15px;
+    color: #FFFFD1;
+    font-weight: bold;
+    
+    font-size: 18px;
+    border-radius: 25px;
+    box-shadow: 6px 6px 29px -4px;
+    text-decoration: none;
+    transition: 0.4s
+}
